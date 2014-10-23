@@ -1,0 +1,1 @@
+../../../CKDownloadManager/CKDownloadManager/Extension/CKDownloadFileModel+Json.h

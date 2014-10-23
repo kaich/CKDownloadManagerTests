@@ -1,0 +1,92 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/Core
+    - ASIHTTPRequest/S3
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - CKDownloadManager (1.0.0):
+    - ASIHTTPRequest
+    - CKDownloadManager/Core
+    - CKDownloadManager/DownloadViewController
+    - CKDownloadManager/Extension
+    - CKDownloadManager/Util
+    - CocoaHTTPServer
+    - DTAlertView
+    - LKDBHelper
+  - CKDownloadManager/Core (1.0.0):
+    - ASIHTTPRequest
+    - CocoaHTTPServer
+    - DTAlertView
+    - LKDBHelper
+  - CKDownloadManager/DownloadViewController (1.0.0):
+    - ASIHTTPRequest
+    - CocoaHTTPServer
+    - DTAlertView
+    - LKDBHelper
+    - SDWebImage
+  - CKDownloadManager/Extension (1.0.0):
+    - ASIHTTPRequest
+    - CocoaHTTPServer
+    - DTAlertView
+    - LKDBHelper
+  - CKDownloadManager/Util (1.0.0):
+    - ASIHTTPRequest
+    - CocoaHTTPServer
+    - DTAlertView
+    - LKDBHelper
+  - CocoaAsyncSocket (7.3.5)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (2.0.0-beta3):
+    - CocoaLumberjack/Default
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (2.0.0-beta3)
+  - CocoaLumberjack/Default (2.0.0-beta3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-beta3):
+    - CocoaLumberjack/Default
+  - DTAlertView (1.2.1)
+  - FMDB (2.4):
+    - FMDB/standard
+  - FMDB/common (2.4)
+  - FMDB/standard (2.4):
+    - FMDB/common
+  - Kiwi (2.3.0)
+  - LKDBHelper (2.0.2):
+    - FMDB
+  - Reachability (3.1.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+
+DEPENDENCIES:
+  - CKDownloadManager (from `https://github.com/kaich/CKDownloadManager.git`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  CKDownloadManager:
+    :git: https://github.com/kaich/CKDownloadManager.git
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: 2c8335b49410c0e2ad42829c438e74d454b77590
+  CKDownloadManager: 43b828386798521c1ccfff8fec670138a87cbb40
+  CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
+  CocoaHTTPServer: 217df4cba4e48803db2480f97b805aaad2230dd1
+  CocoaLumberjack: 55c22a2b8bde7a29c568ab4015b5874216524d70
+  DTAlertView: 887b49e37fe9cc3ea6c07a6a5e02ae768cf82cfd
+  FMDB: 0b2fa25e5264ef177973c0cb8c02c711107979aa
+  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
+  LKDBHelper: 6e547374150797780acdb7fd90ec6aaf0cef7cd2
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+
+COCOAPODS: 0.34.4

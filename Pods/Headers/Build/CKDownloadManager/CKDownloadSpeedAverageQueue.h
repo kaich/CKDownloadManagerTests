@@ -1,0 +1,1 @@
+../../../CKDownloadManager/CKDownloadManager/Core/CKDownloadSpeedAverageQueue.h

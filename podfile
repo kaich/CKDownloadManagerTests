@@ -1,0 +1,6 @@
+platform :ios , "7.0" 
+pod 'CKDownloadManager',:git=>"https://github.com/kaich/CKDownloadManager.git"
+target :CKDownloadManagerTests, :exclusive=>true do
+  pod 'Kiwi'
+end
+
